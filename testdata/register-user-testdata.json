@@ -1,0 +1,45 @@
+{
+  "applicationUrl": "http://parabank.parasoft.com",
+  "password": "SecureP@ssw0rd",
+  "registerdata": {
+    "firstName": "Jateen",
+    "lastName": "Sharma",
+    "address": {
+      "street": "221 Baker street",
+      "city": "London",
+      "state": "London",
+      "zipCode": "NR1 3RE"
+    },
+    "phoneNumber": "1234567890",
+    "ssn": "123-45-6789"
+  },
+  "globalNavigationMenu": [
+    {
+      "name": "About Us",
+      "expectedUrl": "/about.htm"
+    },
+    {
+      "name": "Services",
+      "expectedUrl": "/services.htm"
+    },
+    {
+      "name": "Admin Page",
+      "expectedUrl": "/admin.htm"
+    }
+  ],
+  "accountType": {
+    "savings": "1"
+  },
+  "transferDetails": {
+    "minimumExpectedAmount": 100
+  },
+  "payeeDetails": {
+    "payeeName": "Jateen Sharma",
+    "payeeAddress": "221 baker street",
+    "payeeCity": "Delhi",
+    "payeeState": "Delhi",
+    "payeeZipCode": "10101",
+    "payeePhoneNumber": "101011111",
+    "amount": "10"
+  }
+}
